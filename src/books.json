@@ -1,0 +1,42 @@
+[
+    {
+        "id": 1,
+        "name": "The Kite Runner",
+        "genre": "Historical Fiction",
+        "author": "Khaled Hosseini",
+        "publisher": "Riverhead Books",
+        "pages": 371
+    },
+    {
+        "id": 2,
+        "name": "Who Moved My Cheese",
+        "genre": "Parable",
+        "author": "Spencer Johnson",
+        "publisher": "Putnam Adult",
+        "pages": 94
+    },
+    {
+        "id": 3,
+        "name": "Miracles Of Your Mind",
+        "genre": "Self-help book",
+        "author": "Joseph Murphy",
+        "publisher": "General Press",
+        "pages": 84
+    },
+    {
+        "id": 4,
+        "name": "The Maze Runner",
+        "genre": "Science Fiction",
+        "author": "James Dashner",
+        "publisher": "Delacorte Press",
+        "pages": 384
+    },
+    {
+        "id": 5,
+        "name": "The Alchemist",
+        "genre": "Adventure Fiction",
+        "author": "Paulo Coelho",
+        "publisher": "HarperTorch",
+        "pages": 163
+    }
+]

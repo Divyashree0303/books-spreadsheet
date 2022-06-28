@@ -1,38 +1,79 @@
-.App {
-  text-align: center;
+.app{
+  margin: 1rem;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+table {
+  border-collapse: collapse;
+  width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+th {
+  background-color: #1A1A40;
+  color: #ffffff;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+td {
+  background-color: #655D8A;
+  color: #ffffff;
+}
+th,
+td {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  text-align: left;
+  padding: 1.4vh;
+  font-size: 3vh;
+}
+.form{
+  width: 100%;
+}
+form {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  gap: 5px;
 }
 
-.App-link {
-  color: #61dafb;
+form td:last-child {
+  display: flex;
+  justify-content: space-evenly;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+form * {
+  font-size: 3vh;
+}
+
+.form form > input{
+  border: 3px solid #1A1A40;
+  border-radius: 5px;
+  color: #1A1A40;
+}
+
+button{
+  background-color: #1A1A40 ;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  font-size: 2.5vh;
+  width: 5vw;
+}
+.form form > button:hover{
+  background-color: #655D8A;
+}
+
+.table-button:hover{
+  background-color: #9a9ab3;
+}
+
+.export{
+  margin: 20px 550px;
+  width: 100px;
+  height: 40px;
+}
+
+.export > a{
+  color: #ffffff;
+
+}
+
+.export > a:hover{
+  color: #655D8A;
 }
